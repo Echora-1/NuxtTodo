@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-todo-notes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "node .output/server/index.mjs",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.11.0",
+    "@yeger/vue-masonry-wall": "^6.1.4",
+    "nuxt": "^4.0.0",
+    "pinia": "^3.0.0",
+    "vee-validate": "^4.15.1",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.121",
+    "@nuxt/fonts": "^0.14.0",
+    "@nuxt/icon": "^2.4.1",
+    "happy-dom": "^15.0.0",
+    "sass": "^1.80.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0",
+    "vue-tsc": "^3.0.0"
+  }
+}

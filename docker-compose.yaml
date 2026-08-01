@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nuxt-todo-notes
+    ports:
+      - '3000:3000'
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3000
+    restart: unless-stopped
